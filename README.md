@@ -1,6 +1,6 @@
 # SwISD-Core
 
-Headless node runtime library, carved out of the [SwISD testbed](https://github.com/hideosnes/SwISD). Everything a headless Pi node needs to boot, provision, pull models, verify, and self-update. The swarm brain (network, crdt, peer, ownership, executor, tasks, admin) stays in the testbed, which consumes this library.
+Headless node runtime library: everything a headless Pi node needs to boot, provision, pull models, verify, and self-update. The swarm brain (network, crdt, peer, ownership, executor, tasks, admin) stays in the testbed, which consumes this library.
 
 ## Modules
 
