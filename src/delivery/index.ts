@@ -10,3 +10,4 @@ export * from './installer.js';
 export * from './watchdog.js';
 export * from './mockReleaseGenerator.js';
 export * from './identity.js';
+export * from './updater.js';

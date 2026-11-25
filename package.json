@@ -15,13 +15,21 @@
   "exports": {
     ".": "./dist/index.js",
     "./config": "./dist/config/index.js",
+    "./config/*": "./dist/config/*",
     "./crypto": "./dist/crypto/index.js",
+    "./crypto/*": "./dist/crypto/*",
     "./delivery": "./dist/delivery/index.js",
+    "./delivery/*": "./dist/delivery/*",
     "./models": "./dist/models/index.js",
+    "./models/*": "./dist/models/*",
     "./observability": "./dist/observability/index.js",
+    "./observability/*": "./dist/observability/*",
     "./performance": "./dist/performance/index.js",
+    "./performance/*": "./dist/performance/*",
     "./provision": "./dist/provision/index.js",
-    "./storage": "./dist/storage/index.js"
+    "./provision/*": "./dist/provision/*",
+    "./storage": "./dist/storage/index.js",
+    "./storage/*": "./dist/storage/*"
   },
   "scripts": {
     "build": "tsc",
